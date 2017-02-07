@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Tôi là a. Lũ bạn tôi, đứa thì tên 1, đứa tên 10, đứa tên 3.5407059681495977512423785953907e+48, lại có đứa tên Nguyễn Văn Tèo, đứa thì mang tên t\u00ed, thậm chí có đứa mang tên là 74 E8 6F.
+Cùng nhau">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Một kiểu nhìn về dữ liệu">
+<meta property="og:url" content="n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/index.html">
+<meta property="og:site_name" content="Hieu's blog">
+<meta property="og:description" content="Tôi là a. Lũ bạn tôi, đứa thì tên 1, đứa tên 10, đứa tên 3.5407059681495977512423785953907e+48, lại có đứa tên Nguyễn Văn Tèo, đứa thì mang tên t\u00ed, thậm chí có đứa mang tên là 74 E8 6F.
+Cùng nhau">
+<meta property="og:updated_time" content="2017-02-07T14:39:23.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Một kiểu nhìn về dữ liệu">
+<meta name="twitter:description" content="Tôi là a. Lũ bạn tôi, đứa thì tên 1, đứa tên 10, đứa tên 3.5407059681495977512423785953907e+48, lại có đứa tên Nguyễn Văn Tèo, đứa thì mang tên t\u00ed, thậm chí có đứa mang tên là 74 E8 6F.
+Cùng nhau">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>Một kiểu nhìn về dữ liệu</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/lib/meslo-LG/styles.css">
+    <link rel="stylesheet" href="/lib/justified-gallery/justifiedGallery.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- rss -->
+    
+    
+    <!-- jquery -->
+    <script src="/lib/jquery/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="banner">
+<div id="blogtitel" class="blogtitel">Hieu&#39;s blog</div>
+</div>
+
+    <div class="background">
+      
+        <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="http://localhost:4000">Home</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="https://github.com/n000n">Projects</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/2017/01/08/Note-cho-nam-2016/"><i class="fa fa-chevron-left" aria-hidden="true" onmouseover='$("#i-prev").toggle();' onmouseout='$("#i-prev").toggle();'></i></a></li>
+        
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up" aria-hidden="true" onmouseover='$("#i-top").toggle();' onmouseout='$("#i-top").toggle();'></i></a></li>
+        <li><a class="icon" href="#"><i class="fa fa-share-alt" aria-hidden="true" onmouseover='$("#i-share").toggle();' onmouseout='$("#i-share").toggle();' onclick='$("#share").toggle();return false;'></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/&text=Một kiểu nhìn về dữ liệu"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/&title=Một kiểu nhìn về dữ liệu"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/&is_video=false&description=Một kiểu nhìn về dữ liệu"><i class="fa fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Một kiểu nhìn về dữ liệu&body=Check out this article: n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/"><i class="fa fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/&title=Một kiểu nhìn về dữ liệu"><i class="fa fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/&title=Một kiểu nhìn về dữ liệu"><i class="fa fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/&title=Một kiểu nhìn về dữ liệu"><i class="fa fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/&title=Một kiểu nhìn về dữ liệu"><i class="fa fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/&name=Một kiểu nhìn về dữ liệu&description=&lt;p&gt;Tôi là &lt;code&gt;a&lt;/code&gt;. Lũ bạn tôi, đứa thì tên &lt;code&gt;1&lt;/code&gt;, đứa tên &lt;code&gt;10&lt;/code&gt;, đứa tên &lt;code&gt;3.5407059681495977512423785953907e+48&lt;/code&gt;, lại có đứa tên &lt;code&gt;Nguyễn Văn Tèo&lt;/code&gt;, đứa thì mang tên &lt;code&gt;t\u00ed&lt;/code&gt;, thậm chí có đứa mang tên là &lt;code&gt;74 E8 6F&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Cùng nhau, chúng tôi rong ruổi qua những chặng đường mà người tạo ra chúng tôi muốn như thế.&lt;/p&gt;
+&lt;p&gt;Chúng tôi, một đám dữ liệu vô tri giác, đi và về những khi bị gọi tên, hoà lẫn vào những lối đi, cưỡi lên các nhịp đập của tín hiệu, bị phân tán rã rời, bị ghép lại từ các mảnh, bị nhào trộn, nắn bóp, lọc chắt để rồi được sắp hàng trước đôi mắt của ai đó.&lt;/p&gt;"><i class="fa fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      
+    </div>
+  </span>
+</div>
+
+      
+      <div class="content index width mx-auto px2 my4">
+          
+          <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Một kiểu nhìn về dữ liệu
+    </h1>
+
+
+
+    <div class="meta">
+      
+    <div class="postdate">
+        <time datetime="2017-01-01T15:51:03.000Z" itemprop="datePublished">2017-01-01</time>
+    </div>
+
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>Tôi là <code>a</code>. Lũ bạn tôi, đứa thì tên <code>1</code>, đứa tên <code>10</code>, đứa tên <code>3.5407059681495977512423785953907e+48</code>, lại có đứa tên <code>Nguyễn Văn Tèo</code>, đứa thì mang tên <code>t\u00ed</code>, thậm chí có đứa mang tên là <code>74 E8 6F</code>.</p>
+<p>Cùng nhau, chúng tôi rong ruổi qua những chặng đường mà người tạo ra chúng tôi muốn như thế.</p>
+<p>Chúng tôi, một đám dữ liệu vô tri giác, đi và về những khi bị gọi tên, hoà lẫn vào những lối đi, cưỡi lên các nhịp đập của tín hiệu, bị phân tán rã rời, bị ghép lại từ các mảnh, bị nhào trộn, nắn bóp, lọc chắt để rồi được sắp hàng trước đôi mắt của ai đó.</p>
+<a id="more"></a>
+<blockquote>
+<p>Đôi khi chúng tôi hiền hoà và ích lợi.<br>Lắm lúc chúng tôi tàn nhẫn và vô ích.</p>
+</blockquote>
+<p>Chúng tôi là nguyên nhân của thành công và thất bại. Chúng tôi chỉ là một đám dữ liệu vô tri vô giác.</p>
+<p><a href="http://conmale.blogspot.com/2006/11/mt-kiu-nhn-v-d-liu.html" target="_blank" rel="external">conmale</a></p>
+
+  </div>
+</article>
+
+
+
+      </div>
+      
+       <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="http://localhost:4000">Home</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="https://github.com/n000n">Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://twitter.com/share?url=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/&text=Một kiểu nhìn về dữ liệu"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/&title=Một kiểu nhìn về dữ liệu"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/&is_video=false&description=Một kiểu nhìn về dữ liệu"><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Một kiểu nhìn về dữ liệu&body=Check out this article: n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="https://getpocket.com/save?url=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/&title=Một kiểu nhìn về dữ liệu"><i class="fa fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://reddit.com/submit?url=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/&title=Một kiểu nhìn về dữ liệu"><i class="fa fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/&title=Một kiểu nhìn về dữ liệu"><i class="fa fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://digg.com/submit?url=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/&title=Một kiểu nhìn về dữ liệu"><i class="fa fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="http://www.tumblr.com/share/link?url=n000n.github.io/2017/01/01/mot-kieu-nhin-ve-du-lieu/&name=Một kiểu nhìn về dữ liệu&description=&lt;p&gt;Tôi là &lt;code&gt;a&lt;/code&gt;. Lũ bạn tôi, đứa thì tên &lt;code&gt;1&lt;/code&gt;, đứa tên &lt;code&gt;10&lt;/code&gt;, đứa tên &lt;code&gt;3.5407059681495977512423785953907e+48&lt;/code&gt;, lại có đứa tên &lt;code&gt;Nguyễn Văn Tèo&lt;/code&gt;, đứa thì mang tên &lt;code&gt;t\u00ed&lt;/code&gt;, thậm chí có đứa mang tên là &lt;code&gt;74 E8 6F&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Cùng nhau, chúng tôi rong ruổi qua những chặng đường mà người tạo ra chúng tôi muốn như thế.&lt;/p&gt;
+&lt;p&gt;Chúng tôi, một đám dữ liệu vô tri giác, đi và về những khi bị gọi tên, hoà lẫn vào những lối đi, cưỡi lên các nhịp đập của tín hiệu, bị phân tán rã rời, bị ghép lại từ các mảnh, bị nhào trộn, nắn bóp, lọc chắt để rồi được sắp hàng trước đôi mắt của ai đó.&lt;/p&gt;"><i class="fa fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      <ul>
+        <li id="toc"><a class="icon" href="#" onclick='$("#toc-footer").toggle();return false;'><i class="fa fa-list fa-lg" aria-hidden="true"></i> TOC</a></li>
+        <li id="share"><a class="icon" href="#" onclick='$("#share-footer").toggle();return false;'><i class="fa fa-share-alt fa-lg" aria-hidden="true"></i> Share</a></li>
+        <li id="top" style="display:none"><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a></li>
+        <li id="menu"><a class="icon" href="#" onclick='$("#nav-footer").toggle();return false;'><i class="fa fa-bars fa-lg" aria-hidden="true"></i> Menu</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+      
+      <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2017 Hieu Huynh
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="http://localhost:4000">Home</a></li>
+         
+          <li><a href="/archives/">Writing</a></li>
+         
+          <li><a href="https://github.com/n000n">Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+      <script src="/lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- Google Analytics -->
+
+<!-- Disqus Comments -->
+
+
+    </div>
+</body>
+</html>
