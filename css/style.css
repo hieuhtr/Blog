@@ -1033,7 +1033,7 @@ article header .posttitle {
   text-align: center;
   text-transform: none;
   font-size: 2em;
-  line-height: 2;
+  line-height: 4;
   color: #e81b33;
 }
 article header .meta {
