@@ -172,8 +172,8 @@
   margin-right: 4rem;
 }
 .my4 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+  margin-top: 7rem;
+  margin-bottom: 11rem;
 }
 .mxn1 {
   margin-left: -0.5rem;
@@ -198,7 +198,7 @@
   margin-right: auto;
 }
 .mx-auto {
-  margin-left: auto;
+  margin-left: 170px;
   margin-right: auto;
 }
 .p0 {
@@ -544,7 +544,7 @@ body {
 #header {
   max-width: 710px;
   width: 100%;
-  margin: 0 auto 3rem auto;
+  margin: 0 auto 3rem 0px;
 }
 #header h1,
 #header .h1 {
@@ -1030,10 +1030,9 @@ body {
 article header .posttitle {
   margin-top: 0;
   margin-bottom: 0;
-  text-align: center;
+  text-align: left;
   text-transform: none;
   font-size: 2em;
-  line-height: 4;
   color: #e81b33;
 }
 article header .meta {
