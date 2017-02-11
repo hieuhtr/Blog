@@ -322,7 +322,7 @@
   font-size: 1.5em;
   font-style: normal;
   font-weight: 700;
-  color: #e81b33;
+  color: #3dd466;
   margin-top: 3rem;
   margin-bottom: 1rem;
   display: block;
@@ -397,7 +397,7 @@
 .content ul,
 .content ol,
 .content dl {
-  line-height: 25px;
+  line-height: 23px;
 }
 .content ul ul,
 .content ol ul,
@@ -417,7 +417,7 @@
   font-size: 13px;
   border-collapse: collapse;
   text-align: left;
-  background: #616161;
+  background: #3e3e3e;
 }
 .content th {
   font-size: 14px;
@@ -441,11 +441,11 @@ html {
 }
 body {
   color: #b9babc;
-  background-color: #454545;
+  background-color: #1c1c1c;
   font-size: 15px;
-  font-family: "Menlo", monospace;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-weight: 400;
-  line-height: 25px;
+  line-height: 23px;
   text-rendering: geometricPrecision;
   min-height: 100%;
   display: flex;
@@ -478,14 +478,13 @@ body {
   color: #b9babc;
 }
 .content a:hover {
-  color: #ee573c;
-  text-decoration: underline;
+  color: #3dd466;
 }
 .content a.icon {
   background: none;
 }
 .content a.icon:hover {
-  color: #e81b33;
+  color: #3dd466;
 }
 .content h1 a,
 .content .h1 a,
@@ -582,7 +581,7 @@ body {
   font-size: 0.9rem;
   font-style: normal;
   font-weight: 200;
-  color: #e81b33;
+  color: #3dd466;
 }
 #header #nav ul {
   list-style-type: none;
@@ -598,13 +597,13 @@ body {
   background-repeat: repeat-x;
   background-position: bottom;
   background-size: 100% 6px;
-  background-image: linear-gradient(transparent, transparent 5px, #e81b33 5px, #e81b33);
+  background-image: linear-gradient(transparent, transparent 5px, #3dd466 5px, #3dd466);
 }
 #header #nav ul li {
   display: inline-block;
   vertical-align: middle;
   margin-right: 15px;
-  border-right: 1px dotted #e81b33;
+  border-right: 1px dotted #3dd466;
 }
 #header #nav ul .icon {
   display: none;
@@ -687,14 +686,14 @@ body {
   margin-left: 15px;
 }
 #header-post #menu-icon:hover {
-  color: #e81b33;
+  color: #3dd466;
 }
 #header-post #menu-icon-tablet {
   float: right;
   margin-left: 15px;
 }
 #header-post #menu-icon-tablet:hover {
-  color: #e81b33;
+  color: #3dd466;
 }
 #header-post #top-icon-tablet {
   margin-left: 15px;
@@ -703,10 +702,10 @@ body {
   position: fixed;
 }
 #header-post #top-icon-tablet:hover {
-  color: #e81b33;
+  color: #3dd466;
 }
 #header-post .active {
-  color: #e81b33;
+  color: #3dd466;
 }
 @media screen and (max-height: 650px) {
   #header-post #menu {
@@ -718,7 +717,7 @@ body {
   font-size: 0.8rem;
   font-style: normal;
   font-weight: 200;
-  color: #e81b33;
+  color: #3dd466;
 }
 #header-post #nav ul {
   line-height: 15px;
@@ -731,10 +730,10 @@ body {
   background-repeat: repeat-x;
   background-position: bottom;
   background-size: 100% 6px;
-  background-image: linear-gradient(transparent, transparent 5px, #e81b33 5px, #e81b33);
+  background-image: linear-gradient(transparent, transparent 5px, #3dd466 5px, #3dd466);
 }
 #header-post #nav ul li {
-  border-right: 1px dotted #e81b33;
+  border-right: 1px dotted #3dd466;
 }
 #header-post #nav ul li:last-child {
   border-right: 0;
@@ -782,7 +781,7 @@ body {
 }
 #header-post #toc .toc-level-2:before {
   content: "#";
-  color: #e81b33;
+  color: #3dd466;
 }
 #header-post #toc .toc-level-3 {
   font-size: 0.8rem;
@@ -850,7 +849,7 @@ body {
   transition: opacity 0.2s;
   width: 100%;
   z-index: 5000000;
-  background: #494949;
+  background: #212121;
   border-top: 1px solid #666673;
 }
 #footer-post a {
@@ -870,14 +869,14 @@ body {
   text-align: center;
 }
 #footer-post #nav-footer a {
-  color: #e81b33;
+  color: #3dd466;
   font-size: 1rem;
 }
 #footer-post #nav-footer a:hover {
   background-repeat: repeat-x;
   background-position: bottom;
   background-size: 100% 6px;
-  background-image: linear-gradient(transparent, transparent 5px, #e81b33 5px, #e81b33);
+  background-image: linear-gradient(transparent, transparent 5px, #3dd466 5px, #3dd466);
 }
 #footer-post #nav-footer ul {
   list-style-type: none;
@@ -899,7 +898,7 @@ body {
   width: 100%;
 }
 #footer-post #actions-footer a {
-  color: #e81b33;
+  color: #3dd466;
 }
 #footer-post #actions-footer ul {
   list-style-type: none;
@@ -954,7 +953,7 @@ body {
 }
 #footer-post #toc-footer .toc-level-2:before {
   content: "#";
-  color: #e81b33;
+  color: #3dd466;
 }
 #footer-post #toc-footer .toc-level-3 {
   font-size: 0.8rem;
@@ -1035,14 +1034,14 @@ article header .posttitle {
   text-transform: none;
   font-size: 2em;
   line-height: 2;
-  color: #ee573c;
+  color: #e81b33;
 }
 article header .meta {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 article header .meta * {
-  color: #b6c31e;
+  color: #3dd466;
   font-size: 0.85rem;
 }
 article header .author {
@@ -1055,7 +1054,7 @@ article header .postdate {
 }
 article .content h2:before {
   content: "#";
-  color: #e81b33;
+  color: #3dd466;
   position: absolute;
   left: -1rem;
   top: -4px;
@@ -1351,7 +1350,7 @@ article .content .caption {
   padding-top: 1%;
   color: #dedede;
   text-align: center;
-  background: #454545;
+  background: #1c1c1c;
 }
 .blogtitel {
   position: absolute;
@@ -1362,7 +1361,7 @@ article .content .caption {
   color: #dedede;
   text-align: center;
   font-size: 40px;
-  font-family: "Menlo", monospace;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-weight: 700;
 }
 @-moz-keyframes spinsun {
@@ -2030,73 +2029,85 @@ article .content .caption {
   }
 }
 .highlight {
-  color: #e0e2e4;
-  background: #282b2e;
-}
-.highlight .code .keyword,
-.highlight .code .selector-tag,
-.highlight .code .literal,
-.highlight .code .selector-id {
-  color: #93c763;
-}
-.highlight .code .number {
-  color: #ffcd22;
-}
-.highlight .code .attribute {
-  color: #668bb0;
-}
-.highlight .code .code,
-.highlight .code .class .title,
-.highlight .code .section {
-  color: #fff;
-}
-.highlight .code .regexp,
-.highlight .code .link {
-  color: #d39745;
-}
-.highlight .code .meta {
-  color: #557182;
-}
-.highlight .code .tag,
-.highlight .code .name,
-.highlight .code .bullet,
-.highlight .code .subst,
-.highlight .code .emphasis,
-.highlight .code .type,
-.highlight .code .built_in,
-.highlight .code .selector-attr,
-.highlight .code .selector-pseudo,
-.highlight .code .addition,
-.highlight .code .variable,
-.highlight .code .template-tag,
-.highlight .code .template-variable {
-  color: #8cbbad;
-}
-.highlight .code .string,
-.highlight .code .symbol {
-  color: #ec7600;
+  color: #e6e1dc;
+  background: #232323;
 }
 .highlight .code .comment,
-.highlight .code .quote,
-.highlight .code .deletion {
-  color: #818e96;
-}
-.highlight .code .selector-class {
-  color: #a082bd;
+.highlight .code .quote {
+  color: #bc9458;
+  font-style: italic;
 }
 .highlight .code .keyword,
-.highlight .code .selector-tag,
-.highlight .code .literal,
-.highlight .code .doctag,
+.highlight .code .selector-tag {
+  color: #c26230;
+}
+.highlight .code .string,
+.highlight .code .number,
+.highlight .code .regexp,
+.highlight .code .variable,
+.highlight .code .template-variable {
+  color: #a5c261;
+}
+.highlight .code .subst {
+  color: #519f50;
+}
+.highlight .code .tag,
+.highlight .code .name {
+  color: #e8bf6a;
+}
+.highlight .code .type {
+  color: #da4939;
+}
+.highlight .code .symbol,
+.highlight .code .bullet,
+.highlight .code .built_in,
+.highlight .code .builtin-name,
+.highlight .code .attr,
+.highlight .code .link {
+  color: #6d9cbe;
+}
+.highlight .code .params {
+  color: #d0d0ff;
+}
+.highlight .code .attribute {
+  color: #cda869;
+}
+.highlight .code .meta {
+  color: #9b859d;
+}
 .highlight .code .title,
-.highlight .code .section,
-.highlight .code .type,
-.highlight .code .name,
+.highlight .code .section {
+  color: #ffc66d;
+}
+.highlight .code .addition {
+  background-color: #144212;
+  color: #e6e1dc;
+  display: inline-block;
+  width: 100%;
+}
+.highlight .code .deletion {
+  background-color: #600;
+  color: #e6e1dc;
+  display: inline-block;
+  width: 100%;
+}
+.highlight .code .selector-class {
+  color: #9b703f;
+}
+.highlight .code .selector-id {
+  color: #8b98ab;
+}
+.highlight .code .emphasis {
+  font-style: italic;
+}
 .highlight .code .strong {
   font-weight: bold;
 }
+.highlight .code .link {
+  text-decoration: underline;
+}
 pre {
-  font-family: "Menlo", monospace;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 13px;
   padding: 10px 15px;
   padding-bottom: 0;
@@ -2118,8 +2129,8 @@ pre code {
   padding: 0;
 }
 .highlight {
-  font-family: "Menlo", monospace;
-  background: #616161;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  background: #3e3e3e;
   -webkit-border-radius: 4px;
   border-radius: 7px;
   padding: 10px 15px;
