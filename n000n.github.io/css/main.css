@@ -40,7 +40,8 @@ body {
     font-variant: small-caps;
     text-transform: lowercase;
     font-weight: bold;
-    letter-spacing: 0.15em; }
+    letter-spacing: 0.15em;
+    color: #ad1f1f; }
   body h4 h5 {
     color: #ad1f1f; }
 
