@@ -28,22 +28,17 @@ body {
       font-weight: bold;
       margin: 0.12em 0.15em 0 -0.01em; }
   body h1 {
-    font-weight: 600;
-    color: #ad1f1f; }
+    font-weight: 600; }
   body h2 {
     margin-top: 1em;
     font-size: 1.6em;
-    margin-bottom: 0.6em;
-    color: #ad1f1f; }
+    margin-bottom: 0.6em; }
   body h3 {
     font-size: 1.2em;
     font-variant: small-caps;
     text-transform: lowercase;
     font-weight: bold;
-    letter-spacing: 0.15em;
-    color: #ad1f1f; }
-  body h4 h5 {
-    color: #ad1f1f; }
+    letter-spacing: 0.15em; }
 
 article ul li {
   padding-left: 0em;
