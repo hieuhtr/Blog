@@ -94,7 +94,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 <ul>
   <li>Homebrew is a package manager for OS X</li>
   <li>It allows a user to easily install software from the larger body of UNIX and open source software on the Mac.</li>
-  <li>If you know linux, you can compare the <code class="highlighter-rouge">brew</code> command with <!--more--> the <code class="highlighter-rouge">apt-get</code> command (on Debian)</li>
+  <li>If you know linux, you can compare the <strong>brew</strong> command with the <strong>apt-get</strong> command (on Debian)</li>
   <li>Official site: http://brew.sh</li>
   <li>Homebrew on Github: https://github.com/Homebrew/brew</li>
 </ul>
@@ -113,7 +113,7 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 <ul>
   <li>Screenfetch is a Fetches system/theme information in terminal for Linux desktop screenshots.</li>
   <li>It is a “Bash Screenshot Information Tool”. This handy Bash script can be used to generate one of those nifty terminal theme information + ASCII distribution logos you see in everyone’s screenshots nowadays. It will auto-detect your distribution and display an ASCII version of that distribution’s logo and some valuable information to the right. There are options to specify no ASCII art, colors, taking a screenshot upon displaying info, and even customizing the screenshot command! This script is very easy to add to and can easily be extended.</li>
-  <li>Install Screenfetch: <code class="highlighter-rouge">brew install screenfetch</code></li>
+  <li>Install Screenfetch: <strong>brew install screenfetch</strong></li>
   <li>Now, you can use screenfetch command on your Mac</li>
   <li>More information about screenfetch, see here: https://github.com/KittyKatt/screenFetch</li>
 </ul>
@@ -134,9 +134,9 @@ src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 <p>Overview:</p>
 <ul>
   <li>Homebrew is based on Git and Ruby.</li>
-  <li>The first time you install it, it’ll set things up in <code class="highlighter-rouge">/usr/local/</code> by default</li>
-  <li>Every time you run <code class="highlighter-rouge">brew update</code> it does a <code class="highlighter-rouge">git pull</code></li>
-  <li>You can check all information about package like htop, you can using <code class="highlighter-rouge">brew desc htop</code> and <code class="highlighter-rouge">brew info htop</code></li>
+  <li>The first time you install it, it’ll set things up in <strong>/usr/local/</strong> by default</li>
+  <li>Every time you run <strong>brew update</strong> it does a <strong>git pull</strong></li>
+  <li>You can check all information about package like htop, you can using <strong>brew desc htop</strong> and <strong>brew info htop</strong></li>
 </ul>
 
 <div class="language-shell highlighter-rouge"><pre class="highlight"><code>DevOps at MacbookPro <span class="k">in</span> /usr/local/Cellar/nmap/7.40
@@ -166,14 +166,14 @@ You should be certain that you trust any software you grant root privileges.
 </div>
 
 <ul>
-  <li>When you run <code class="highlighter-rouge">brew install htop</code>, Homebrew fetches the URL (here that’s https://homebrew.bintray.com/bottles/htop-2.0.2.sierra.bottle.tar.gz) using <code class="highlighter-rouge">curl</code> and stores the archive in a cache directory so you won’t download it twice</li>
+  <li>When you run <strong>brew install htop</strong>, Homebrew fetches the URL (here that’s https://homebrew.bintray.com/bottles/htop-2.0.2.sierra.bottle.tar.gz) using <code class="highlighter-rouge">curl</code> and stores the archive in a cache directory so you won’t download it twice</li>
   <li>It computes its checksum and compares it against the one the formula provides, to ensure you’re downloading the right file.</li>
-  <li>Verifying <code class="highlighter-rouge">htop-2.0.2.sierra.bottle.tar.gz</code> checksum: sha256 <code class="highlighter-rouge">179be9dccb80cee0c5e1a1f58c8f72ce7b2328ede30fb71dcdf336539be2f487</code></li>
-  <li>The development cutting edge of htop is decribled in <code class="highlighter-rouge">url "https://github.com/hishamhm/htop.git"</code></li>
+  <li>Verifying <strong>htop-2.0.2.sierra.bottle.tar.gz</strong> checksum: sha256 <strong>179be9dccb80cee0c5e1a1f58c8f72ce7b2328ede30fb71dcdf336539be2f487</strong></li>
+  <li>The development cutting edge of htop is decribled in <strong>url “https://github.com/hishamhm/htop.git”</strong></li>
   <li>One package can depend on other formulae; have patches and external resources; download stuff from Git, SVN, Mercurial or through FTP; and more.</li>
   <li>Homebrew provide bottles (pre-built formulae); which are essentially formulae built by a bot then stored as a <code class="highlighter-rouge">.tar.gz</code> on a server so that you can download them directly instead of re-building everything from source every time. Bottles are defined in formulae and brew install use them when they’re available.</li>
-  <li>Need <code class="highlighter-rouge">ncurses</code> before install <code class="highlighter-rouge">htop</code> - optional</li>
-  <li>Here is <code class="highlighter-rouge">htop.rb</code>, it is a package definition written in Ruby. These formulae are Ruby files that describe the software they install and contain instructions to install and test it.</li>
+  <li>Need <strong>ncurses</strong> before install <strong>htop</strong> - optional</li>
+  <li>Here is <strong>htop.rb</strong>, it is a package definition written in Ruby. These formulae are Ruby files that describe the software they install and contain instructions to install and test it.</li>
 </ul>
 
 <div class="language-ruby highlighter-rouge"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Htop</span> <span class="o">&lt;</span> <span class="no">Formula</span>
