@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="theme-color" content="hsl(35, 36%, 95%)">
+  <title>How Homebrew works</title>
+
+  
+  <meta name="description" content="
+  
+    
+      
+        How Homebrew works
+        15 Jan 2017
+        
+          
+        
+      
+    
+    
+      
+      
+        
+          
+    ..." />
+
+  
+  <meta name="keywords" content="" />
+
+  <link rel="canonical" href="http://localhost:4000/blog/2017/01/15/How-Homebrew-works/">
+  <link rel="alternate" type="application/rss+xml" title="Engineering Blog" href="http://localhost:4000/feed.xml" />
+  <span itemprop='author'><meta name="author" content="Hieu Huynh"><span itemprop='author'></span>
+
+  <link href="/favicon.ico" rel="icon">
+  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/PT+Serif:400,400i,700,700i:f/Source+Code+Pro:400,600:f">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&amp;subset=vietnamese" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/main.css">
+
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true
+      },
+
+      TeX: {
+        equationNumbers: { autoNumber: "AMS" }
+      },
+
+      CommonHTML: {
+        scale: 90
+      }
+    };
+  </script>
+  <script type="text/javascript" async
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', '', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+
+  <body>
+    <div class="post">
+  <div class="container main">
+    <div class="row">
+      <header>
+        <center><span itemprop="name"><h1>How Homebrew works</h1></span></center>
+        <center><p>15 Jan 2017</p></center>
+        <center><span class="small-ornament"><svg viewBox="0 0 290 320">
+          <path d="M280.2656 245.3906 Q280.2656 263.25 261.8438 271.9688 Q247.9219 278.7188 227.8125 278.7188 Q235.2656 269.8594 235.2656 256.5 Q235.2656 231.8906 214.4531 217.125 Q196.0312 204.0469 170.2969 204.0469 Q143.5781 204.0469 108.8438 221.0625 L118.9688 231.4688 Q154.4062 267.8906 168.3281 267.8906 Q181.125 267.8906 181.125 255.9375 Q181.125 248.3438 173.5312 243.5625 Q167.0625 239.3438 159.0469 239.3438 Q154.6875 239.3438 148.6406 241.4531 Q158.625 220.0781 173.9531 220.0781 Q184.5 220.0781 191.8828 228.0938 Q199.2656 236.1094 199.2656 246.6562 Q199.2656 265.5 184.3594 277.875 Q170.2969 289.4062 151.0312 289.4062 Q118.6875 289.4062 81.4219 251.0156 L72.1406 241.4531 Q53.5781 249.4688 39.375 249.4688 Q26.4375 249.4688 17.1562 240.9609 Q7.875 232.4531 7.875 219.5156 Q7.875 203.9062 19.125 193.9219 Q29.9531 184.5 45.8438 184.5 Q70.0312 184.5 98.2969 211.6406 Q111.5156 202.2188 127.5469 185.4844 L134.5781 178.1719 Q174.5156 136.6875 204.8906 136.6875 Q231.4688 136.6875 231.4688 155.25 Q231.4688 173.5312 204.3281 177.3281 Q206.4375 172.8281 206.4375 170.1562 Q206.4375 159.3281 193.3594 159.3281 Q175.2188 159.3281 144.2812 189 L137.1094 195.8906 Q165.2344 185.7656 191.25 185.7656 Q221.7656 185.7656 248.3438 200.1094 Q280.2656 217.2656 280.2656 245.3906 ZM61.1719 230.4844 Q44.5781 215.2969 37.2656 215.2969 Q27.9844 215.2969 27.9844 223.4531 Q27.9844 234.4219 42.75 234.4219 Q51.1875 234.4219 61.1719 230.4844z"/>
+        </svg></span></center>
+      </header>
+    </div>
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-8 offset-md-1">
+        <article lang="en">
+          
+          <p>Homebrew — The missing package manager for macOS</p>
+
+<h3 id="what-is-homebrew">What is Homebrew?</h3>
+
+<ul>
+  <li>Homebrew is a package manager for OS X</li>
+  <li>It allows a user to easily install software from the larger body of UNIX and open source software on the Mac.</li>
+  <li>If you know linux, you can compare the <code class="highlighter-rouge">brew</code> command with <!--more--> the <code class="highlighter-rouge">apt-get</code> command (on Debian)</li>
+  <li>Official site: http://brew.sh</li>
+  <li>Homebrew on Github: https://github.com/Homebrew/brew</li>
+</ul>
+
+<h3 id="how-to-install">How to install?</h3>
+
+<p>Open terminal or iterm2 on your Mac and paste this line at a Terminal prompt.</p>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code> /usr/bin/ruby -e <span class="s2">"</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install<span class="k">)</span><span class="s2">"</span>
+</code></pre>
+</div>
+
+<h3 id="homebrew-walkthrough-by-example">Homebrew Walkthrough by example</h3>
+
+<p>Install Screenfetch using brew:</p>
+<ul>
+  <li>Screenfetch is a Fetches system/theme information in terminal for Linux desktop screenshots.</li>
+  <li>It is a “Bash Screenshot Information Tool”. This handy Bash script can be used to generate one of those nifty terminal theme information + ASCII distribution logos you see in everyone’s screenshots nowadays. It will auto-detect your distribution and display an ASCII version of that distribution’s logo and some valuable information to the right. There are options to specify no ASCII art, colors, taking a screenshot upon displaying info, and even customizing the screenshot command! This script is very easy to add to and can easily be extended.</li>
+  <li>Install Screenfetch: <code class="highlighter-rouge">brew install screenfetch</code></li>
+  <li>Now, you can use screenfetch command on your Mac</li>
+  <li>More information about screenfetch, see here: https://github.com/KittyKatt/screenFetch</li>
+</ul>
+
+<p>Some packages of Linux that you can install on Mac using brew:</p>
+<ul>
+  <li>wget, coreutils, gcc, imagemagick, geoip</li>
+  <li>nmap https://nmap.org/</li>
+  <li>sqlmap http://sqlmap.org/</li>
+  <li>ncdu https://dev.yorhel.nl/ncdu</li>
+  <li>…</li>
+</ul>
+
+<p>See all on <a href="http://brewformulas.org/">Homebrew formulas index</a></p>
+
+<h3 id="how-it-works">How it works?</h3>
+
+<p>Overview:</p>
+<ul>
+  <li>Homebrew is based on Git and Ruby.</li>
+  <li>The first time you install it, it’ll set things up in <code class="highlighter-rouge">/usr/local/</code> by default</li>
+  <li>Every time you run <code class="highlighter-rouge">brew update</code> it does a <code class="highlighter-rouge">git pull</code></li>
+  <li>You can check all information about package like htop, you can using <code class="highlighter-rouge">brew desc htop</code> and <code class="highlighter-rouge">brew info htop</code></li>
+</ul>
+
+<div class="language-shell highlighter-rouge"><pre class="highlight"><code>DevOps at MacbookPro <span class="k">in</span> /usr/local/Cellar/nmap/7.40
+<span class="gp">$ </span>brew desc htop
+htop: Improved top <span class="o">(</span>interactive process viewer<span class="o">)</span>
+DevOps at MacbookPro <span class="k">in</span> /usr/local/Cellar/nmap/7.40
+<span class="gp">$ </span>brew info htop
+htop: stable 2.0.2 <span class="o">(</span>bottled<span class="o">)</span>, HEAD
+Improved top <span class="o">(</span>interactive process viewer<span class="o">)</span>
+https://hisham.hm/htop/
+Conflicts with: htop-osx
+/usr/local/Cellar/htop/2.0.2 <span class="o">(</span>10 files, 183.8K<span class="o">)</span> <span class="k">*</span>
+  Poured from bottle on 2017-01-15 at 02:50:09
+From: https://github.com/Homebrew/homebrew-core/blob/master/Formula/htop.rb
+<span class="gp">==&gt; </span>Dependencies
+Optional: homebrew/dupes/ncurses ✘
+<span class="gp">==&gt; </span>Options
+--with-ncurses
+	Build using homebrew ncurses <span class="o">(</span>enables mouse scroll<span class="o">)</span>
+--HEAD
+	Install HEAD version
+<span class="gp">==&gt; </span>Caveats
+htop requires root privileges to correctly display all running processes,
+so you will need to run <span class="sb">`</span>sudo htop<span class="sb">`</span>.
+You should be certain that you trust any software you grant root privileges.
+</code></pre>
+</div>
+
+<ul>
+  <li>When you run <code class="highlighter-rouge">brew install htop</code>, Homebrew fetches the URL (here that’s https://homebrew.bintray.com/bottles/htop-2.0.2.sierra.bottle.tar.gz) using <code class="highlighter-rouge">curl</code> and stores the archive in a cache directory so you won’t download it twice</li>
+  <li>It computes its checksum and compares it against the one the formula provides, to ensure you’re downloading the right file.</li>
+  <li>Verifying <code class="highlighter-rouge">htop-2.0.2.sierra.bottle.tar.gz</code> checksum: sha256 <code class="highlighter-rouge">179be9dccb80cee0c5e1a1f58c8f72ce7b2328ede30fb71dcdf336539be2f487</code></li>
+  <li>The development cutting edge of htop is decribled in <code class="highlighter-rouge">url "https://github.com/hishamhm/htop.git"</code></li>
+  <li>One package can depend on other formulae; have patches and external resources; download stuff from Git, SVN, Mercurial or through FTP; and more.</li>
+  <li>Homebrew provide bottles (pre-built formulae); which are essentially formulae built by a bot then stored as a <code class="highlighter-rouge">.tar.gz</code> on a server so that you can download them directly instead of re-building everything from source every time. Bottles are defined in formulae and brew install use them when they’re available.</li>
+  <li>Need <code class="highlighter-rouge">ncurses</code> before install <code class="highlighter-rouge">htop</code> - optional</li>
+  <li>Here is <code class="highlighter-rouge">htop.rb</code>, it is a package definition written in Ruby. These formulae are Ruby files that describe the software they install and contain instructions to install and test it.</li>
+</ul>
+
+<div class="language-ruby highlighter-rouge"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Htop</span> <span class="o">&lt;</span> <span class="no">Formula</span>
+  <span class="n">desc</span> <span class="s2">"Improved top (interactive process viewer)"</span>
+  <span class="n">homepage</span> <span class="s2">"https://hisham.hm/htop/"</span>
+  <span class="n">url</span> <span class="s2">"https://hisham.hm/htop/releases/2.0.2/htop-2.0.2.tar.gz"</span>
+  <span class="n">sha256</span> <span class="s2">"179be9dccb80cee0c5e1a1f58c8f72ce7b2328ede30fb71dcdf336539be2f487"</span>
+
+  <span class="n">bottle</span> <span class="k">do</span>
+    <span class="n">sha256</span> <span class="s2">"555ff188b1990fb0a5b4634beef196ed1fb843336b99cac33d0291d592d93233"</span> <span class="o">=&gt;</span> <span class="ss">:sierra</span>
+    <span class="n">sha256</span> <span class="s2">"b13e6457905778a75d2627e1586e14ab20920001bed16b84c1fb64a258715741"</span> <span class="o">=&gt;</span> <span class="ss">:el_capitan</span>
+    <span class="n">sha256</span> <span class="s2">"f50fd11325a34da989c268f1e4bb998c4b8415079c23a95c267088e9576bef3e"</span> <span class="o">=&gt;</span> <span class="ss">:yosemite</span>
+    <span class="n">sha256</span> <span class="s2">"785c2806efe12a008c2fc958f567501e2931d2457261eed721ffae374f989498"</span> <span class="o">=&gt;</span> <span class="ss">:mavericks</span>
+  <span class="k">end</span>
+
+  <span class="n">head</span> <span class="k">do</span>
+    <span class="n">url</span> <span class="s2">"https://github.com/hishamhm/htop.git"</span>
+
+    <span class="n">depends_on</span> <span class="s2">"autoconf"</span> <span class="o">=&gt;</span> <span class="ss">:build</span>
+    <span class="n">depends_on</span> <span class="s2">"automake"</span> <span class="o">=&gt;</span> <span class="ss">:build</span>
+    <span class="n">depends_on</span> <span class="s2">"libtool"</span> <span class="o">=&gt;</span> <span class="ss">:build</span>
+  <span class="k">end</span>
+
+  <span class="n">option</span> <span class="s2">"with-ncurses"</span><span class="p">,</span> <span class="s2">"Build using homebrew ncurses (enables mouse scroll)"</span>
+
+  <span class="n">depends_on</span> <span class="s2">"homebrew/dupes/ncurses"</span> <span class="o">=&gt;</span> <span class="ss">:optional</span>
+
+  <span class="n">conflicts_with</span> <span class="s2">"htop-osx"</span><span class="p">,</span> <span class="ss">:because</span> <span class="o">=&gt;</span> <span class="s2">"both install an `htop` binary"</span>
+
+  <span class="k">def</span> <span class="nf">install</span>
+    <span class="nb">system</span> <span class="s2">"./autogen.sh"</span> <span class="k">if</span> <span class="n">build</span><span class="p">.</span><span class="nf">head?</span>
+    <span class="nb">system</span> <span class="s2">"./configure"</span><span class="p">,</span> <span class="s2">"--prefix=</span><span class="si">#{</span><span class="n">prefix</span><span class="si">}</span><span class="s2">"</span>
+    <span class="nb">system</span> <span class="s2">"make"</span><span class="p">,</span> <span class="s2">"install"</span>
+  <span class="k">end</span>
+
+  <span class="k">def</span> <span class="nf">caveats</span><span class="p">;</span> <span class="o">&lt;&lt;-</span><span class="no">EOS</span><span class="p">.</span><span class="nf">undent</span>
+    <span class="n">htop</span> <span class="n">requires</span> <span class="n">root</span> <span class="n">privileges</span> <span class="n">to</span> <span class="n">correctly</span> <span class="nb">display</span> <span class="n">all</span> <span class="n">running</span> <span class="n">processes</span><span class="p">,</span><span class="sh">
+    so you will need to run `sudo htop`.
+    You should be certain that you trust any software you grant root privileges.
+</span><span class="no">    EOS</span>
+  <span class="k">end</span>
+
+  <span class="nb">test</span> <span class="k">do</span>
+    <span class="n">pipe_output</span><span class="p">(</span><span class="s2">"</span><span class="si">#{</span><span class="n">bin</span><span class="si">}</span><span class="s2">/htop"</span><span class="p">,</span> <span class="s2">"q"</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+  <span class="k">end</span>
+<span class="k">end</span>
+</code></pre>
+</div>
+
+<h3 id="reference">Reference</h3>
+
+<ol>
+  <li>https://www.quora.com/How-does-Homebrew-work-internally</li>
+  <li>https://github.com/Homebrew/brew/blob/master/docs/Formula-Cookbook.md</li>
+</ol>
+
+        </article>
+	     </div>
+     </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row biography">
+      <div class="col-sm-4">
+        <h2>who am i</h2>
+        <p>I am an Engineer who likes learning, discussing, and solving problems. These days, I'm focusing on DevOps and Infratructure at <a href='https://saleshood.com'>SalesHood Inc</a>. Here you can find my <a href='/assets/cv.pdf'>Résumé</a>.</p>
+      </div>
+      <div class="col-sm-4">
+        <h2>what is this</h2>
+        <p>This is a <a href='https://n000n.github.io'>blog</a> about software, some mathematics, and the occasional philosophy. Not necessarily in that order.</p>
+      </div>
+      <div class="col-sm-4">
+        <h2>where am i</h2>
+          
+          
+          <div>
+            <a href="https://github.com/n000n">
+              <span class="username">github/n000n</span>
+            </a>
+          </div>
+          
+          
+          
+          
+          <div>
+            <a href="https://www.facebook.com/huynhtrunghieu.cs">
+              <span class="username">facebook/huynhtrunghieu.cs</span>
+            </a>
+          </div>
+          
+      </div>
+    </div>
+    
+    <div class="row copyright">
+      <center>This site is hosted at <a href='https://pages.github.com/'>Github Pages</a> and created with <a href='http://jekyllrb.com/'>Jekyll</a>.</center>
+    </div>
+    
+  </div>
+</footer>
+
+  </body>
+</html>
