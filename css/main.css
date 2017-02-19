@@ -17,7 +17,7 @@ body {
   body p {
     line-height: 1.5; }
   body b, body strong {
-    color: #c72323; }
+    color: #427b58; }
   body article > :first-child {
     min-height: 3.5em; }
     body article > :first-child:first-letter {
@@ -42,7 +42,8 @@ body {
     font-variant: small-caps;
     text-transform: lowercase;
     font-weight: bold;
-    letter-spacing: 0.15em; }
+    letter-spacing: 0.15em;
+    color: #427b58; }
   body h4 h5 {
     color: #ad1f1f; }
 
