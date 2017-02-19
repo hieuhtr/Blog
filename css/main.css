@@ -16,6 +16,8 @@ body {
     color: #c72323; }
   body p {
     line-height: 1.5; }
+  body b, body strong {
+    color: #c72323; }
   body article > :first-child {
     min-height: 3.5em; }
     body article > :first-child:first-letter {
@@ -74,7 +76,8 @@ blockquote {
   border-left: 2pt solid #c72323;
   padding-left: 0.9em;
   margin-left: -1em;
-  font-style: oblique; }
+  font-style: oblique;
+  color: #ad1f1f; }
   blockquote > :last-child {
     margin-bottom: 0; }
   blockquote code {
