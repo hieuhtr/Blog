@@ -44,7 +44,7 @@ Overview:
 + Every time you run **brew update** it does a **git pull**
 + You can check all information about package like htop, you can using **brew desc htop** and **brew info htop** 
 
-```java
+```shell
 DevOps at MacbookPro in /usr/local/Cellar/nmap/7.40
 $ brew desc htop
 htop: Improved top (interactive process viewer)
