@@ -1,6 +1,5 @@
 # How Homebrew works? 
 
-
 Homebrew — The missing package manager for macOS. Here is the Official site: [https://brew.sh](https://brew.sh)
 
 ## What is Homebrew?

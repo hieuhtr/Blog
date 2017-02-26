@@ -1,6 +1,5 @@
 # Note cho năm 2016 
 
-
 > Năm 2016 là đánh dấu rất nhiều biến chuyển cả về lối sống, suy nghĩ và cách hành động.
 > Tổng kết 1 số thứ trong năm 2016, để sau này có cái mà nhìn lại:
 

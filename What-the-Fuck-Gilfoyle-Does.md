@@ -1,9 +1,6 @@
 # What the Fuck Gilfoyle Does? 
 
-
 > It’s not magic, it’s talent and sweat. People like me ensure your packets get delivered unsniffed. So what do I do? I make sure that one bad config on one key component doesn’t bankrupt the entire fucking company. That’s what the fuck I do
-
----
 
 **Jared:** So, um, can you kinda catch me up on what you see as your role in the company? What do you do? 
 

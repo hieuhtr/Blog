@@ -2,7 +2,7 @@
 
 ![](image/but-first-lets-code.png)
 
-- [Apply evaluate opensource project](Apply-evaluate-opensource-project.md)
+- [How to apply evaluate opensource project](Apply-evaluate-opensource-project.md)
 - [How Homebrew works?](Note-cho-nam-2016.md)
 - [Note cho năm 2016](Note-cho-nam-2016.md)
 - [Tự do khởi nghiệp](Tu-do-khoi-nghiep.md)
