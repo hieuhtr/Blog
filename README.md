@@ -1,6 +1,6 @@
 ![](2017/image/but-first-lets-code.png)
 
-# Today I Learned (TIL)
+# #TIL - Today I Learned 
 
 See in list of [Issues](https://github.com/hieuhtr/Blog/issues)
 
