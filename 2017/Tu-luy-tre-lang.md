@@ -64,7 +64,6 @@ Soi vào các nước phát triển hiện đại ở châu Á, tôi đều th�
  
 >Tôi nghĩ, Việt Nam ta muốn phát triển hiện đại cũng chỉ có con đường "Tây học" như mấy nước kia.
 
----
 Nguồn từ fb bác [Lương Hoài Nam](https://www.facebook.com/notes/luong-hoai-nam/t%E1%BB%AB-l%C5%A9y-tre-l%C3%A0ng-ra-bi%E1%BB%83n-l%E1%BB%9Bn-nh%E1%BA%ADn-th%E1%BB%A9c-v%E1%BB%81-t%C3%A2y-h%E1%BB%8Dc/10203309876335490)
 
 --

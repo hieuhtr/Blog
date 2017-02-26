@@ -83,7 +83,6 @@ Tiến lên thôi. Mỗi ngày mới, bước thêm 1 bước. Cuộc đời nà
 
 > Ừ, thế thì cứ tiếp tục thôi. Đường thì còn dài lắm, dài mênh mông. Nhưng cứ đi thì chắc cũng phải tới, nhỉ!
 
----
 *From FTU confession*
 
 --
