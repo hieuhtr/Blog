@@ -1,6 +1,10 @@
-# Blog: 
-
 ![](2017/image/but-first-lets-code.png)
+
+# Today I Learned (TIL)
+
+See in list of [Issues](https://github.com/hieuhtr/Blog/issues)
+
+# Blog: 
 
 - [How to apply evaluate opensource project](2017/Apply-evaluate-opensource-project.md)
 - [How Homebrew works?](2017/How-Homebrew-works.md)
@@ -11,4 +15,8 @@
 - [Một kiểu nhìn về dữ liệu](2017/mot-kieu-nhin-ve-du-lieu.md)
 
 --
-***Hieu Huynh***, since Jan 2017.
+***Hieu Huynh***, 
+I'm an Engineer who likes learning, discussing, and solving problems. 
+These days, I'm focusing on DevOps and Infrastructure at [SalesHood Inc](http://saleshood.com)
+
+since Jan 2017.
