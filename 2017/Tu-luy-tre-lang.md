@@ -8,7 +8,7 @@ Bên Hậu Luật có một luỹ tre, bên Văn Tập có một lũy tre. Chún
  
 Thật ra, cánh đồng giữa hai làng Hậu Luật và Văn Tập chỉ rộng cỡ... 200 mét. Sau này mỗi lần về quê, nhìn cánh đồng này và nhớ lại những kỷ niệm "vượt biên" thời xưa, tôi phì cười. Nhưng trong đôi mắt và trên đôi chân của những đứa con nít chúng tôi, làng Hậu Luật là cả một thế giới. Luỹ tre làng là biên giới của nó với những thế giới khác và làng Văn Tập là một thế giới khác.
  
----
+--
  
 Năm 1980, ở tuổi 17, tôi là học viên trường Đại học Kỹ thuật Quân sự (nay là Học viện Kỹ thuật Quân sự). Đơn vị tôi đóng quân tại sân bay Tân Sơn Nhất. Công việc chủ yếu của chúng tôi là học tiếng Nga. Thời gian còn lại là tập quân sự, trồng rau, có một đợt đi gặt lúa, bắt cá tận Hậu Giang. Cái "làng", cái thế giới của tôi đã rộng ra rất nhiều so với cái làng Hậu Luật quê tôi.
  
@@ -23,7 +23,7 @@ Hè năm 1985, tôi theo các nhân viên của sân bay Pulkovo (Leningrad) "đ
  
 Năm 1990 tôi về nước làm việc cho một hãng hàng không. Rồi tôi phụ trách việc mở rộng mạng đường bay và hợp tác quốc tế của hãng hàng không đó. Công việc đó cho tôi cơ hội đi dọc ngang châu Á, châu Âu, Bắc Mỹ, Australasia. Mặc dù tôi chưa có dịp đến Nam Mỹ và châu Phi, nhưng cái "làng" của tôi qua năm tháng làm hàng không đã được mở ra rất rộng. Tôi được thấy, được biết thêm nhiều điều.
  
----
+--
  
 > Với những chuyến đi, tôi có cảm giác trái đất như nhỏ đi. Một vòng trái đất chỉ 50 giờ bay, có nhiều nhặn gì đâu?
  
@@ -32,7 +32,6 @@ Năm 1990 tôi về nước làm việc cho một hãng hàng không. Rồi tôi
 Tôi chợt nhận ra: đó chính là nhờ kiến thức con người. Nói đúng hơn - nhờ hành trình đi tìm kiến thức của con người, đặc biệt là của những người châu Âu, của "Tây".
 
 ## Tại sao tôi lại nghĩ về người châu Âu, đến "Tây"?
----
 
 Có hai thứ làm tôi nghĩ như thế. Đó là Biển và Trời. Tôi cảm thấy sự ứng xử của người châu Á và người châu Âu đối với hai thứ đó có những điểm giống nhau, nhưng có những điểm rất khác nhau.
  
