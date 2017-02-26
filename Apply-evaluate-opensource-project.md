@@ -20,3 +20,5 @@ Like what steps you guys taking, etc?
 + Github issues & code.
 + Run small demo see how it works.
 + make plan to apply it into internal system / execute plan
+
+*Hieu Huynh* Feb 5, 2017.

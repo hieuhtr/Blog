@@ -28,3 +28,5 @@ I makes sure that one bad config on one key component doesn't bankrupt the entir
 That's what the fuck I do. 
 
 **Richard:** ...That's basically what I told him.
+
+*Hieu Huynh* February 20, 2017.

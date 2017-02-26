@@ -14,3 +14,5 @@ Chúng tôi, một đám dữ liệu vô tri giác, đi và về những khi b�
 Chúng tôi là nguyên nhân của thành công và thất bại. Chúng tôi chỉ là một đám dữ liệu vô tri vô giác.
 
 [conmale](http://conmale.blogspot.com/2006/11/mt-kiu-nhn-v-d-liu.html)
+
+*Hieu Huynh* Jan 1, 2017.

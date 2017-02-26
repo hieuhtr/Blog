@@ -21,3 +21,5 @@
 + Sống còn cảm tính, trẻ trâu, bốc đồng, chưa focus vô được trọng tâm
 + Lười biếng, không ngó ngàng gì đến thể dục thể thao
 + Tiếng Anh siêu tệ mà không có kế hoạch rõ ràng để cải thiện, cứ than vãn :(
+
+*Hieu Huynh* Jan 8, 2017.
