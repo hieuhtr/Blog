@@ -3,7 +3,7 @@
 ![](2017/image/but-first-lets-code.png)
 
 - [How to apply evaluate opensource project](2017/Apply-evaluate-opensource-project.md)
-- [How Homebrew works?](2017/Note-cho-nam-2016.md)
+- [How Homebrew works?](2017/How-Homebrew-works.md)
 - [Note cho năm 2016](2017/Note-cho-nam-2016.md)
 - [Tự do khởi nghiệp](2017/Tu-do-khoi-nghiep.md)
 - [What the Fuck Gilfoyle Does?](2017/What-the-Fuck-Gilfoyle-Does.md)
