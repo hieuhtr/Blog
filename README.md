@@ -12,7 +12,8 @@
 
 # Today I Learned 
 
-- See in list of [Issues](https://github.com/hieuhtr/Blog/issues)
+![](2017/image/nothing-todo-here.jpg)
+Please check [Issues](https://github.com/hieuhtr/Blog/issues)
 
 --
 I'm an Engineer who likes learning, discussing, and solving problems.
