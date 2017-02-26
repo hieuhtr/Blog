@@ -1,23 +1,12 @@
-# Papyrus - Jekyll Theme
+# Blog: 
 
-Papyrus is a responsive three-column Jekyll theme with classic styling and careful typographic details.
-
-Loosely based on the [Onelight Atom Theme](https://github.com/atom/one-light-ui).
-
-## Install and Test
-
-1. Download or clone the repo
-  - `git clone git@github.com:hugoferreira/papyrus-theme.git`
-2. Enter the folder
-  - `cd papyrus-theme/`
-3. Start Jekyll server
-  - `jekyll serve --watch`
-4. Access via
-  - http://127.0.0.1:4000/papyrus-theme/
-
-## Demo
-
-- http://hugosereno.eu
+- [Apply evaluate opensource project](#Apply-evaluate-opensource-project)
+- [How Homebrew works?](#How-Homebrew-works)
+- [Note cho năm 2016](#Note-cho-nam-2016)
+- [Tự do khởi nghiệp](#Tu-do-khoi-nghiep)
+- [What the Fuck Gilfoyle Does?](#What-the-Fuck-Gilfoyle-Does)
+- [Từ lũy tre làng ra biển lớn & Nhận thức về "Tây học"](#Tu-luy-tre-lang)
+- [Một kiểu nhìn về dữ liệu](#mot-kieu-nhin-ve-du-lieu)
 
 ## Preview
 
