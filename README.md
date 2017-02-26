@@ -1,6 +1,6 @@
 # Blog: 
 
-![](image/but-first-lets-code.png)
+![](2017/image/but-first-lets-code.png)
 
 - [How to apply evaluate opensource project](2017/Apply-evaluate-opensource-project.md)
 - [How Homebrew works?](2017/Note-cho-nam-2016.md)
