@@ -10,7 +10,7 @@
 - [Từ lũy tre làng ra biển lớn & Nhận thức về "Tây học"](2017/Tu-luy-tre-lang.md)
 - [Một kiểu nhìn về dữ liệu](2017/mot-kieu-nhin-ve-du-lieu.md)
 
-# ![#1589F0](https://github.com/hieuhtr/Blog/issues) `Today I Learned`
+# :fire: Today I Learned
 
 ![](2017/image/nothing-todo-here.jpg)
 Please check [Issues](https://github.com/hieuhtr/Blog/issues)
