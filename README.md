@@ -1,7 +1,7 @@
 # Blog: 
 
 - [Apply evaluate opensource project](https://github.com/hieuhtr/hieuhtr.github.io/blob/master/Apply-evaluate-opensource-project.md)
-- [How Homebrew works?](https://github.com/hieuhtr/hieuhtr.github.io/blob/master/How-Homebrew-works.md)
+- [How Homebrew works?](hieuhtr.github.io/Note-cho-nam-2016.md)
 - [Note cho năm 2016](https://github.com/hieuhtr/hieuhtr.github.io/blob/master/Tu-do-khoi-nghiep.md)
 - [Tự do khởi nghiệp](https://github.com/hieuhtr/hieuhtr.github.io/blob/master/Tu-do-khoi-nghiep.md)
 - [What the Fuck Gilfoyle Does?](https://github.com/hieuhtr/hieuhtr.github.io/blob/master/What-the-Fuck-Gilfoyle-Does.md)
