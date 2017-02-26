@@ -1,9 +1,5 @@
 ![](2017/image/but-first-lets-code.png)
 
-# #TIL - Today I Learned 
-
-See in list of [Issues](https://github.com/hieuhtr/Blog/issues)
-
 # Blog: 
 
 - [How to apply evaluate opensource project](2017/Apply-evaluate-opensource-project.md)
@@ -13,6 +9,10 @@ See in list of [Issues](https://github.com/hieuhtr/Blog/issues)
 - [What the Fuck Gilfoyle Does?](2017/What-the-Fuck-Gilfoyle-Does.md)
 - [Từ lũy tre làng ra biển lớn & Nhận thức về "Tây học"](2017/Tu-luy-tre-lang.md)
 - [Một kiểu nhìn về dữ liệu](2017/mot-kieu-nhin-ve-du-lieu.md)
+
+# Today I Learned 
+
+- See in list of [Issues](https://github.com/hieuhtr/Blog/issues)
 
 --
 ***Hieu Huynh***, 
