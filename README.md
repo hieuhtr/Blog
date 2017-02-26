@@ -1,9 +1,9 @@
 # Blog: 
 
-- [Apply evaluate opensource project](https://github.com/hieuhtr/hieuhtr.github.io/blob/master/Apply-evaluate-opensource-project.md)
-- [How Homebrew works?](hieuhtr.github.io/Note-cho-nam-2016.md)
-- [Note cho năm 2016](https://github.com/hieuhtr/hieuhtr.github.io/blob/master/Tu-do-khoi-nghiep.md)
-- [Tự do khởi nghiệp](https://github.com/hieuhtr/hieuhtr.github.io/blob/master/Tu-do-khoi-nghiep.md)
-- [What the Fuck Gilfoyle Does?](https://github.com/hieuhtr/hieuhtr.github.io/blob/master/What-the-Fuck-Gilfoyle-Does.md)
-- [Từ lũy tre làng ra biển lớn & Nhận thức về "Tây học"](https://github.com/hieuhtr/hieuhtr.github.io/blob/master/Tu-luy-tre-lang.md)
-- [Một kiểu nhìn về dữ liệu](https://github.com/hieuhtr/hieuhtr.github.io/blob/master/mot-kieu-nhin-ve-du-lieu.md)
+- [Apply evaluate opensource project](Apply-evaluate-opensource-project.md)
+- [How Homebrew works?](Note-cho-nam-2016.md)
+- [Note cho năm 2016](Note-cho-nam-2016.md)
+- [Tự do khởi nghiệp](Tu-do-khoi-nghiep.md)
+- [What the Fuck Gilfoyle Does?](What-the-Fuck-Gilfoyle-Does.md)
+- [Từ lũy tre làng ra biển lớn & Nhận thức về "Tây học"](Tu-luy-tre-lang.md)
+- [Một kiểu nhìn về dữ liệu](mot-kieu-nhin-ve-du-lieu.md)
