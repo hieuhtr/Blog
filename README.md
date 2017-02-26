@@ -1,6 +1,6 @@
 ![](2017/image/but-first-lets-code.png)
 
-# Blog
+# :page_facing_up: Blog
 
 - [How to apply evaluate opensource project](2017/Apply-evaluate-opensource-project.md)
 - [How Homebrew works?](2017/How-Homebrew-works.md)
@@ -12,8 +12,8 @@
 
 # :fire: Today I Learned
 
-![](2017/image/nothing-todo-here.jpg)
 Please check [Issues](https://github.com/hieuhtr/Blog/issues)
+![](2017/image/nothing-todo-here.jpg)
 
 --
 I'm an Engineer who likes learning, discussing, and solving problems.
