@@ -29,4 +29,5 @@ That's what the fuck I do.
 
 **Richard:** ...That's basically what I told him.
 
-*Hieu Huynh* February 20, 2017.
+
+***Hieu Huynh*** February 20, 2017.

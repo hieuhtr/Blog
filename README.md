@@ -10,4 +10,5 @@
 - [Từ lũy tre làng ra biển lớn & Nhận thức về "Tây học"](Tu-luy-tre-lang.md)
 - [Một kiểu nhìn về dữ liệu](mot-kieu-nhin-ve-du-lieu.md)
 
-*Hieu Huynh*, since Jan 2017.
+
+***Hieu Huynh***, since Jan 2017.

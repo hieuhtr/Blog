@@ -15,4 +15,5 @@ Chúng tôi là nguyên nhân của thành công và thất bại. Chúng tôi c
 
 [conmale](http://conmale.blogspot.com/2006/11/mt-kiu-nhn-v-d-liu.html)
 
-*Hieu Huynh* Jan 1, 2017.
+
+***Hieu Huynh*** Jan 1, 2017.

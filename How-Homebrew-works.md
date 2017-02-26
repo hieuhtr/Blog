@@ -131,4 +131,5 @@ end
 1. https://www.quora.com/How-does-Homebrew-work-internally
 2. https://github.com/Homebrew/brew/blob/master/docs/Formula-Cookbook.md
 
-*Hieu Huynh* Jan 15, 2017.
+
+***Hieu Huynh*** Jan 15, 2017.
