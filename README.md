@@ -1,6 +1,6 @@
 ![](2017/image/but-first-lets-code.png)
 
-# :page_facing_up: Blog
+# Blog
 
 - [How to apply evaluate opensource project](2017/Apply-evaluate-opensource-project.md)
 - [How Homebrew works?](2017/How-Homebrew-works.md)
@@ -10,9 +10,9 @@
 - [Từ lũy tre làng ra biển lớn & Nhận thức về "Tây học"](2017/Tu-luy-tre-lang.md)
 - [Một kiểu nhìn về dữ liệu](2017/mot-kieu-nhin-ve-du-lieu.md)
 
-# :fire: Today I Learned
+# Today I Learned
 
-Please check [Issues](https://github.com/hieuhtr/Blog/issues)
+Please check :fire: [Issues](https://github.com/hieuhtr/Blog/issues)
 ![](2017/image/nothing-todo-here.jpg)
 
 --
