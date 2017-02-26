@@ -16,7 +16,6 @@
 
 --
 I'm an Engineer who likes learning, discussing, and solving problems.
-
 These days, I'm focusing on DevOps and Infrastructure at [SalesHood Inc](http://saleshood.com).
 
 ***Hieu Huynh***
