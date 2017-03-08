@@ -32,6 +32,8 @@ mysql> FLUSH TABLES WITH READ LOCK;
    - If you run `FLUSH TABLES WITH READ LOCK` for preparing `mysqldump`, you must keep this session, and run `mysqldump` in **another session**. 
    - Because If you don't keep, the `binlog` and the `position` of `binlog` may be changed during this session
 
+**Need discussion?**
+Go https://github.com/hieuhtr/Blog/issues/8
 
 --
 ***Hieu Huynh*** Mar 8, 2017.
