@@ -2,6 +2,7 @@
 
 # Blog
 
+- [Habit and Time Management](2017/Habit-Time-Management.md)
 - [MySQL: FLUSH TABLES WITH READ LOCK](2017/MySQL-FLUSH-TABLES-WITH-READ-LOCK.md)
 - [How to apply evaluate opensource project](2017/Apply-evaluate-opensource-project.md)
 - [How Homebrew works?](2017/How-Homebrew-works.md)
