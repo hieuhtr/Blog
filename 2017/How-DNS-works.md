@@ -1,6 +1,5 @@
-# How DNS works
+## DNS: Basic concept and information
 
-## Basic concept and information
 - DNS stands for Domain Name System
 - Its purpose is to resolve and translate human-readable website name to IPv4 or IPv6 address
 - It's basically a large Database which resides on various servers around the world, that contains the names and IP address of various host/domains.
