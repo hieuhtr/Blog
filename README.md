@@ -2,6 +2,7 @@
 
 # Blog
 
+- ["No Reboot" Kernel patching](2017/No-Reboot-Kernel-Patching.md)
 - [How DNS works](2017/How-DNS-works.md)
 - [Habit and Time Management](2017/Habit-Time-Management.md)
 - [MySQL: FLUSH TABLES WITH READ LOCK](2017/MySQL-FLUSH-TABLES-WITH-READ-LOCK.md)
