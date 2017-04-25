@@ -1,5 +1,7 @@
 # Tự do khởi nghiệp 
 
+> Bài này mình kéo về từ FTU confession, thấy hay quá nên đem về để học tập
+
 Tôi học FTU2. Giờ tôi tự làm cho chính mình (self-employed). Tôi không startup, startup lớn lao quá, tôi chưa có cái tầm vóc ấy. Tôi chỉ kinh doanh nhỏ lẻ thôi.
 
 Ngày xưa từng đi làm thuê cho người khác, cũng làm truyền thông, cũng được chủ doanh nghiệp ngồi hỏi tư vấn truyền thông các kiểu. Mà chuyện đó đã cũ rồi. Tôi dẹp hết, vứt hết, vứt mẹ mấy cái mác kêu kêu “communication executive” hay “communication manager” đồ các kiểu. Vứt mẹ cuộc sống fancy sáng dậy lựa váy vủng, tô son siếc, nhảy lên xe chạy cái èo tới công ty. Xuống xe, bấm cửa thang máy, lắc hông qua lại cho nó điệu đà, rảnh rảnh lôi điện thoại ra ngắm xem son hôm nay đã đủ đẹp chưa? Túi hôm nay đã ton sur ton với váy áo chưa? Bấm thẻ, ngồi vào chỗ làm, máy lạnh phà phà mát rượi, đi pha cốc cà phê, uống vài ngụm cho tỉnh táo tinh thần, rồi làm việc.
