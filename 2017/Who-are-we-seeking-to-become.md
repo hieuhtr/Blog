@@ -13,3 +13,4 @@ The habits we groove become who we are, one minute at a time.
 And the same thing is true for brands, organizations and movements.
 
 From [sethgodin](http://sethgodin.typepad.com/seths_blog/2017/04/who-are-we-seeking-to-become.html)
+May 7, 2017
