@@ -2,6 +2,7 @@
 
 # Blog
 
+- [Who are we seeking to become?](2017/Who-are-we-seeking-to-become.md)
 - ["No Reboot" Kernel patching](2017/No-Reboot-Kernel-Patching.md)
 - [How DNS works](2017/How-DNS-works.md)
 - [Habit and Time Management](2017/Habit-Time-Management.md)
