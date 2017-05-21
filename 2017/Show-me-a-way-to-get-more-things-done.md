@@ -1,6 +1,6 @@
 # Ways to get more things done
 
-If You Commit to Nothing, You’ll Be Distracted By Everything
+Let's define productivity. Productivity is a measure of efficiency of a person completing a task. We often assume that productivity means getting more things done each day. Wrong. Productivity is getting important things done consistently. And no matter what you are working on, there are only a few things that are truly important. Being productive is about maintaining a steady, average speed on a few things, not maximum speed on everything.
 
 ## Warren Buffett’s “2 List” Strategy for Focused Attention
 Buffett uses a simple 3-step productivity strategy to help his employees determine their priorities and actions. You may find this method useful for making decisions and getting yourself to commit to doing one thing right away
@@ -43,6 +43,8 @@ Using the decision matrix for taking action and organizing your tasks.
 Have you ever had a task that you absolutely had to get done? What happened? You got it done because the deadline made the decision for you. Maybe you procrastinated beforehand, but once things became urgent and you were forced to make a decision, you took action.
 
 - It doesn’t matter how long your goal will take, just get started.
+- Turning the temperature down or moving to a cooler place is an easy way to focus your mind and body.
+
 
 ### Reference:
 1. http://jamesclear.com/ivy-lee
