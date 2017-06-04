@@ -2,7 +2,7 @@
 
 # Blog
 
-- [The MySQL binary log](2017/The-MySQL-binlog.md)
+- [The MySQL binary log](2017/The-MySQL-binlog.md) :fire:
 - [Ways to get more things done](2017/Show-me-a-way-to-get-more-things-done.md)
 - [Who are we seeking to become?](2017/Who-are-we-seeking-to-become.md)
 - ["No Reboot" Kernel patching](2017/No-Reboot-Kernel-Patching.md)
