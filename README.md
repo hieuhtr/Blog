@@ -22,7 +22,7 @@
 Please check :fire: [Issues](https://github.com/hieuhtr/Blog/issues)
 ![](2017/image/nothing-todo-here.jpg)
 
-I'm an engineer who likes learning, discussing, and solving problems. These days, I'm focusing on DevOps because I'd love to help ensure that services stay up and running while continuing to ship software to customers rapidly and I also have a passion for building robust infrastructure at world scale. 
+I'm an engineer who likes learning, discussing, and solving problems. These days, I'm focusing on DevOps because I'd love to help ensure that services stay up and running, while continuing to ship software to customers rapidly. I also have a passion for building robust infrastructure at world scale.
 
 ***Hieu Huynh***
 since Jan 2017.
