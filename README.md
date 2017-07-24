@@ -1,6 +1,6 @@
 ![](2017/image/but-first-lets-code.png)
 
-# Blog
+# Blog [![ghit.me](https://ghit.me/badge.svg?repo=hieuhtr/Blog)](https://ghit.me/repo/hieuhtr/Blog)
 
 - [The MySQL binary log](2017/The-MySQL-binlog.md) :fire:
 - [Ways to get more things done](2017/Show-me-a-way-to-get-more-things-done.md)
