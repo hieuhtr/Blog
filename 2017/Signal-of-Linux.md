@@ -1,6 +1,6 @@
 # Signals 
 
-# Definitons:
+## Definition:
 
 - System calls: communication chanel between user space program and kernel
 - Signals: a different channel, used for inter-process communication
@@ -9,7 +9,7 @@
 - That's why we use `kill -9 <PID>` to kill a process, because the kill command will send a defined signal to a process with a given identity <PID>
 - when we run kill -9 <PID> command, that process is not terminate itself, instead we're telling that OS to stop running the program, no matter what the program is doing
 
-# Some useful signals
+## Some useful signals
 
 - SIGINT: is the program interrupt signal. When user presses CTRL+C, the terminal emulator sends this signal to the foreground process, it will terminate process, but it can be caught or ignored, it a graceful shutdown
 - SIGTERM: is the termination signal. It used to cause process termination, this signal can be blocked, handled and ignored. It is the normal way to ask a process to terminate. The `kill` command generates SIGTERM by default
@@ -23,8 +23,8 @@ For example, when a process does not die by using Ctrl+C (SIGINT), we should use
 
 When a process is in a limbo state it is reasonable to send the process the SIGKILL signal, which can be invoked by running the kill command with the -9 flag. Unlike SIGTERM the SIGKILL signal cannot be captured by the process and thus it cannot be ignored. The SIGKILL signal is handled outside of the process completely, and is used to stop the process immediately. The problem with using SIGKILL is that it does not allow an application to close its open files or database connections cleanly and over time could cause other issues; therefor it is generally better to reserve the SIGKILL signal as a last resort.
 
+## Reference & Read more
 http://bencane.com/2014/04/01/understanding-the-kill-command-and-how-to-terminate-processes-in-linux/
-
 https://en.wikipedia.org/wiki/Unix_signal
 http://unix.stackexchange.com/questions/149741/why-is-sigint-not-propagated-to-child-process-when-sent-to-its-parent-process
 http://askubuntu.com/questions/890591/why-doesnt-ctrl-c-kill-the-terminal-itself/890597
